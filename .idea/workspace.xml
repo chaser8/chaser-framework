@@ -5,393 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a78d933-90c2-4f9b-ae74-f80ff00ab9b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/commons/common-base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/bean/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/exception/AuthenticationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/exception/BusiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/exception/CallApiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/exception/ErrorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/exception/ForbiddenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/exception/NotImplementedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/exception/SystemErrorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/exception/SystemException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/util/BeanUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/util/ClassUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/util/CollectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/util/HadoopUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/util/HttpServletUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/util/JSONUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/util/ObjectUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/util/PropertiesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/util/RsaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/util/SecurityUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/util/SignUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/main/java/top/chaser/framework/common/base/util/SpringBeanHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/test/java/top/chaser/framework/common/base/util/RsaUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/src/test/java/top/chaser/framework/common/base/util/SignUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-base/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-excel/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-excel/src/main/java/top/chaser/framework/common/excel/ExcelHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-excel/src/main/java/top/chaser/framework/common/excel/MybatisExcelWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-excel/src/test/java/top/chaser/framework/common/excel/ExcelHelperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-excel/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-excel/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-excel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-excel/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-excel/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/SpringBootWebProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/annotation/DeleteMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/annotation/GetMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/annotation/PatchMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/annotation/PostMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/annotation/PutMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/exception/WebErrorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/filter/MultiReadHttpServletRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/http/MediaType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/http/request/MultiReadHttpServletRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/http/response/ResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/response/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/session/ApiResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/session/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/session/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/session/Organization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/session/Privilege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/session/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/session/SessionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/session/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/sign/SecretKeyMD5SignHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/sign/SignHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-web/src/main/java/top/chaser/framework/common/web/sign/SignInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-webflux/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-webflux/src/main/java/top/chaser/framework/common/web/flux/decorator/DefaultServerHttpRequestDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-webflux/src/main/java/top/chaser/framework/common/web/flux/decorator/DefaultServerHttpResponseDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-webflux/src/main/java/top/chaser/framework/common/web/flux/decorator/DefaultServerWebExchangeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/common-webflux/src/main/java/top/chaser/framework/common/web/flux/util/WebFluxUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/examples/common-excel-example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/examples/common-excel-example/src/main/java/top/chaser/framework/common/excel/example/ExcelExampleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/examples/common-excel-example/src/main/java/top/chaser/framework/common/excel/example/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/examples/common-excel-example/src/main/java/top/chaser/framework/common/excel/example/mapper/MallInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/examples/common-excel-example/src/main/java/top/chaser/framework/common/excel/example/model/MallInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/examples/common-excel-example/src/main/java/top/chaser/framework/common/excel/example/service/MallInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/examples/common-excel-example/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/examples/common-excel-example/src/main/resources/db/1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/examples/common-excel-example/src/main/resources/mapper/MallInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/examples/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-boot-starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-boot-starter/src/main/java/top/chaser/framework/starter/boot/autoconfigure/ChaserSpringBootConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-boot-starter/target/classes/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-boot-starter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-boot-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-boot-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-boot-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gateway/src/main/java/top/chaser/framework/starter/gateway/autoconfigure/GatewayAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gateway/src/main/java/top/chaser/framework/starter/gateway/autoconfigure/GatewayProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gateway/src/main/java/top/chaser/framework/starter/gateway/autoconfigure/PredicateBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gateway/src/main/java/top/chaser/framework/starter/gateway/filter/CachedBodyGlobalFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gateway/src/main/java/top/chaser/framework/starter/gateway/filter/routes/RequestBodyGatewayFilterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gateway/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gateway/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gateway/target/classes/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gateway/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/src/main/java/top/chaser/framework/starter/gray/autoconfigure/GrayAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/src/main/java/top/chaser/framework/starter/gray/autoconfigure/GrayProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/src/main/java/top/chaser/framework/starter/gray/gateway/GrayLoadBalancerClientFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/src/main/java/top/chaser/framework/starter/gray/reactive/GrayReactiveLoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/src/main/java/top/chaser/framework/starter/gray/reactive/GrayServiceInstanceListSupplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/src/main/java/top/chaser/framework/starter/gray/reactive/GrayServiceInstanceListSupplierBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/src/main/java/top/chaser/framework/starter/gray/reactive/LoadBalancerClientConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/src/main/java/top/chaser/framework/starter/gray/reactive/LoadBalancerClientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/src/main/java/top/chaser/framework/starter/gray/ribbon/GrayParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/src/main/java/top/chaser/framework/starter/gray/ribbon/GrayRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/src/main/java/top/chaser/framework/starter/gray/ribbon/RibbonSpringClientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/src/main/java/top/chaser/framework/starter/gray/support/WeightMeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/src/main/java/top/chaser/framework/starter/gray/support/WeightRandomUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/target/classes/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-gray/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/src/main/java/top/chaser/framework/starter/logging/HttpLoggingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/src/main/java/top/chaser/framework/starter/logging/LogInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/src/main/java/top/chaser/framework/starter/logging/LoggingProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/src/main/java/top/chaser/framework/starter/logging/autoconfigure/LoggingAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/src/main/java/top/chaser/framework/starter/logging/processor/LoggingProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/src/main/java/top/chaser/framework/starter/logging/processor/MqLoggingProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/src/main/java/top/chaser/framework/starter/logging/processor/PrintLoggingProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/src/main/resources/console-appender.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/src/main/resources/defaults.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/src/main/resources/error-appender.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/src/main/resources/file-appender.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/src/main/resources/logging-dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/src/main/resources/logging-prod.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/target/classes/console-appender.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/target/classes/defaults.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/target/classes/error-appender.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/target/classes/file-appender.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/target/classes/logging-dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/target/classes/logging-prod.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-logging/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-swagger/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-swagger/src/main/java/top/chaser/framework/starter/swagger/autoconfigure/SwaggerAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-swagger/src/main/java/top/chaser/framework/starter/swagger/autoconfigure/SwaggerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-swagger/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-swagger/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-swagger/target/classes/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-swagger/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-swagger/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-swagger/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-swagger/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/src/main/java/top/chaser/framework/starter/tkmybatis/autoconfigure/TkMybatisAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/src/main/java/top/chaser/framework/starter/tkmybatis/mapper/TkBaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/src/main/java/top/chaser/framework/starter/tkmybatis/model/TkBaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/src/main/java/top/chaser/framework/starter/tkmybatis/service/IService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/src/main/java/top/chaser/framework/starter/tkmybatis/service/TkServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/src/test/java/top/chaser/framework/starter/tkmybatis/SpringBootStarterExampleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/src/test/java/top/chaser/framework/starter/tkmybatis/mapper/MallInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/src/test/java/top/chaser/framework/starter/tkmybatis/model/MallInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/src/test/java/top/chaser/framework/starter/tkmybatis/service/MallInfoTkService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/src/test/java/top/chaser/framework/starter/tkmybatis/service/TkServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/src/test/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/src/test/resources/db/1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/src/test/resources/mapper/MallInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/target/classes/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/target/test-classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/target/test-classes/db/1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/target/test-classes/mapper/MallInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/AuthorizationServerAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/AuthorizationServerJwtProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/AuthorizationServerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/PasswordConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/SmsCodeLoginConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/controller/UaaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/controller/request/PasswordLoginReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/controller/request/SmsCodeLoginReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/exception/PasswordErrorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/security/AuthorizationServerSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/security/bean/DefaultUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/security/handler/DefaultAuthenticationSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/security/handler/DefaultLogoutHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/security/handler/DefaultLogoutSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/security/password/PasswordAuthenticationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/security/password/PasswordAuthenticationProcessingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/security/password/PasswordAuthenticationProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/security/password/PasswordSecurityConfigurerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/security/sms/SmsCodeAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/security/sms/SmsCodeAuthenticationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/security/sms/SmsCodeAuthenticationProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/security/sms/SmsCodeSecurityConfigurerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/java/top/chaser/framework/starter/uaa/authorization/service/UaaUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/test/java/top/chaser/framework/starter/uaa/authorization/security/JwtUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/src/test/java/top/chaser/framework/starter/uaa/authorization/security/RandomUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/target/classes/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/ResourceServerAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/ResourceServerJwtProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/ResourceServerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/controller/SmsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/controller/request/SmsCodeSendReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/controller/response/SmsCodeSendRes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/security/JWTAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/security/ResourceServerSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/security/code/CacheValidateCodeStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/security/code/ValidateCodeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/security/code/ValidateCodeProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/security/code/ValidateCodeProcessorHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/security/code/ValidateCodeSecurityConfigurerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/security/code/ValidateCodeStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/security/code/exception/NoSuchValidateCodeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/security/code/exception/ValidateCodeAuthenticationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/security/code/sms/SmsCodeProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/service/PermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/service/impl/NonPermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/java/top/chaser/framework/starter/uaa/resource/service/impl/PermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/target/classes/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/src/main/java/top/chaser/framework/uaa/base/JwtProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/src/main/java/top/chaser/framework/uaa/base/code/AuthCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/src/main/java/top/chaser/framework/uaa/base/code/AuthCodeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/src/main/java/top/chaser/framework/uaa/base/code/DefaultSmsCodeSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/src/main/java/top/chaser/framework/uaa/base/code/SmsAuthCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/src/main/java/top/chaser/framework/uaa/base/code/SmsCodeSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/src/main/java/top/chaser/framework/uaa/base/handler/DefaultAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/src/main/java/top/chaser/framework/uaa/base/handler/DefaultAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/src/main/java/top/chaser/framework/uaa/base/handler/DefaultAuthenticationFailureHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/src/main/java/top/chaser/framework/uaa/base/store/CacheStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/src/main/java/top/chaser/framework/uaa/base/store/TokenStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/src/main/java/top/chaser/framework/uaa/base/util/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-uaa/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/src/main/java/top/chaser/framework/starter/upload/autoconfigure/LocalStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/src/main/java/top/chaser/framework/starter/upload/autoconfigure/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/src/main/java/top/chaser/framework/starter/upload/autoconfigure/UploadAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/src/main/java/top/chaser/framework/starter/upload/autoconfigure/UploadProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/src/main/java/top/chaser/framework/starter/upload/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/src/main/java/top/chaser/framework/starter/upload/entity/FileInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/src/main/java/top/chaser/framework/starter/upload/mapper/FileInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/src/main/java/top/chaser/framework/starter/upload/service/FileInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/src/main/java/top/chaser/framework/starter/upload/utils/FileStorageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/src/main/java/top/chaser/framework/starter/upload/vo/FileInfoRes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/src/main/resources/mapper/FileInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/src/main/resources/sql/mysql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/target/classes/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/target/classes/mapper/FileInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/target/classes/sql/mysql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-upload/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-web/src/main/java/top/chaser/framework/starter/web/SpringBootWebAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-web/src/main/java/top/chaser/framework/starter/web/autoconfigure/DefaultGlobalExceptionHandlerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-web/src/main/java/top/chaser/framework/starter/web/autoconfigure/ErrorPageConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-web/src/main/java/top/chaser/framework/starter/web/autoconfigure/InterceptorRegistrationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-web/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-web/src/main/resources/static/errors/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-web/src/main/resources/static/errors/xxx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-web/target/classes/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-web/target/classes/static/errors/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-web/target/classes/static/errors/xxx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-webflux/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-webflux/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-webflux/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/chaser-starter-webflux/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-boot-starter-example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-boot-starter-example/src/main/java/top/chaser/framework/starter/example/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-boot-starter-example/src/main/java/top/chaser/framework/starter/example/SpringBootStarterExampleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-boot-starter-example/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-boot-starter-example/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-boot-starter-example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-boot-starter-example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gateway-example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gateway-example/src/main/java/top/chaser/framework/starter/gateway/example/SpringCloudGatewayExampleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gateway-example/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gateway-example/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gateway-example/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gateway-example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gateway-example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-gateway-example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-gateway-example/src/main/java/top/chaser/framework/starter/gateway/gray/example/SpringCloudGatewayGrayExampleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-gateway-example/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-gateway-example/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-gateway-example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-gateway-example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-service-1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-service-1/src/main/java/top/chaser/framework/starter/gray/example/GrayService1Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-service-1/src/main/java/top/chaser/framework/starter/gray/example/controller/Service1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-service-1/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-service-1/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-service-1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-service-1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-service-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-service-2/src/main/java/top/chaser/framework/starter/gray/example/GrayService2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-service-2/src/main/java/top/chaser/framework/starter/gray/example/controller/Service2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-service-2/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-service-2/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-service-2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/gray-service-2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-gray-example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-logging-example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-logging-example/src/main/java/top/chaser/framework/starter/logging/example/LoggingExampleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-logging-example/src/main/java/top/chaser/framework/starter/logging/example/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-logging-example/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-logging-example/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-tk-mybatis-example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-tk-mybatis-example/src/main/java/top/chaser/framework/starter/tkmybatis/example/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-tk-mybatis-example/src/main/java/top/chaser/framework/starter/tkmybatis/example/TKMybatisExampleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-tk-mybatis-example/src/main/java/top/chaser/framework/starter/tkmybatis/example/mapper/MallInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-tk-mybatis-example/src/main/java/top/chaser/framework/starter/tkmybatis/example/model/MallInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-tk-mybatis-example/src/main/java/top/chaser/framework/starter/tkmybatis/example/service/MallInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-tk-mybatis-example/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-tk-mybatis-example/src/main/resources/db/1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-tk-mybatis-example/src/main/resources/mapperxml/MallInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-tk-mybatis-example/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-tk-mybatis-example/target/classes/db/1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-tk-mybatis-example/target/classes/mapperxml/MallInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-tk-mybatis-example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-tk-mybatis-example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-upload-example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-upload-example/src/main/java/top/chaser/framework/starter/upload/example/UploadApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-upload-example/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-upload-example/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-upload-example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-upload-example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-web-example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-web-example/src/main/java/top/chaser/framework/starter/web/example/SpringBootStarterWebExampleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-web-example/src/main/java/top/chaser/framework/starter/web/example/controller/MallController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-web-example/src/main/java/top/chaser/framework/starter/web/example/mapper/MallInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-web-example/src/main/java/top/chaser/framework/starter/web/example/model/MallInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-web-example/src/main/java/top/chaser/framework/starter/web/example/service/MallInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-web-example/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-web-example/src/main/resources/db/1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-web-example/src/main/resources/mapperxml/MallInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-web-example/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-web-example/target/classes/db/1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-web-example/target/classes/mapperxml/MallInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-web-example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-web-example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/chaser-starter-webflux-example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/reactor-example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/reactor-example/src/main/java/top/chaser/reactor/example/FluxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/reactor-example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/examples/reactor-example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -434,6 +49,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="chaser-starter-uaa-resource-server" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -558,11 +186,26 @@
       <workItem from="1627959872811" duration="1647000" />
       <workItem from="1627961558081" duration="381000" />
       <workItem from="1627961991549" duration="4502000" />
-      <workItem from="1628038578240" duration="6417000" />
+      <workItem from="1628038578240" duration="6877000" />
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1628061521028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628061521028</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
