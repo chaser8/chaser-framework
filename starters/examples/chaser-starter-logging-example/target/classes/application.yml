@@ -1,9 +1,0 @@
-spring:
-  application:
-    name: test1
-server:
-  port: 8080
-logging:
-  config: classpath:logging-prod.xml
-  level:
-    top.chaser.framework.boot: debug

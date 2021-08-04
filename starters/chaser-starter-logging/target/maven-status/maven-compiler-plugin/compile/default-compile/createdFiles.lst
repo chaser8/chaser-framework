@@ -1,9 +1,0 @@
-top/chaser/framework/starter/logging/autoconfigure/LoggingAutoConfiguration.class
-top/chaser/framework/starter/logging/processor/MqLoggingProcessor.class
-META-INF/spring-configuration-metadata.json
-top/chaser/framework/starter/logging/HttpLoggingFilter.class
-top/chaser/framework/starter/logging/processor/PrintLoggingProcessor.class
-top/chaser/framework/starter/logging/LoggingProperties$ProcessorProperties.class
-top/chaser/framework/starter/logging/LogInfo.class
-top/chaser/framework/starter/logging/LoggingProperties.class
-top/chaser/framework/starter/logging/processor/LoggingProcessor.class

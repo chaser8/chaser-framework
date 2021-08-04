@@ -1,7 +1,0 @@
-META-INF/spring-configuration-metadata.json
-top/chaser/framework/starter/gateway/autoconfigure/GatewayAutoConfiguration.class
-top/chaser/framework/starter/gateway/autoconfigure/GatewayProperties.class
-top/chaser/framework/starter/gateway/filter/routes/RequestBodyGatewayFilterFactory.class
-top/chaser/framework/starter/gateway/filter/routes/RequestBodyGatewayFilterFactory$1.class
-top/chaser/framework/starter/gateway/autoconfigure/PredicateBody.class
-top/chaser/framework/starter/gateway/filter/CachedBodyGlobalFilter.class
