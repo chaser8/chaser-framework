@@ -1,0 +1,19 @@
+{
+  "groups": [
+    {
+      "name": "chaser.security.jwt",
+      "type": "top.chaser.framework.uaa.base.JwtProperties",
+      "sourceType": "top.chaser.framework.uaa.base.JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "chaser.security.jwt.expire-seconds",
+      "type": "java.lang.Long",
+      "description": "token的有效期秒，默认30分钟",
+      "sourceType": "top.chaser.framework.uaa.base.JwtProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

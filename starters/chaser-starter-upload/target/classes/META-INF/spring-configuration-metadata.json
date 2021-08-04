@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "chaser.upload",
+      "type": "top.chaser.framework.starter.upload.autoconfigure.UploadProperties",
+      "sourceType": "top.chaser.framework.starter.upload.autoconfigure.UploadProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "chaser.upload.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "top.chaser.framework.starter.upload.autoconfigure.UploadProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "chaser.upload.local-storage",
+      "type": "top.chaser.framework.starter.upload.autoconfigure.LocalStorage",
+      "sourceType": "top.chaser.framework.starter.upload.autoconfigure.UploadProperties"
+    },
+    {
+      "name": "chaser.upload.storage-type",
+      "type": "top.chaser.framework.starter.upload.autoconfigure.Storage",
+      "sourceType": "top.chaser.framework.starter.upload.autoconfigure.UploadProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,4 @@
+top/chaser/framework/starter/web/autoconfigure/ErrorPageConfig.class
+top/chaser/framework/starter/web/SpringBootWebAutoConfiguration.class
+top/chaser/framework/starter/web/autoconfigure/DefaultGlobalExceptionHandlerAdvice.class
+top/chaser/framework/starter/web/autoconfigure/InterceptorRegistrationConfiguration.class

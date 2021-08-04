@@ -1,0 +1,5 @@
+top/chaser/framework/starter/tkmybatis/SpringBootStarterExampleApplication.class
+top/chaser/framework/starter/tkmybatis/mapper/MallInfoMapper.class
+top/chaser/framework/starter/tkmybatis/service/TkServiceImplTest.class
+top/chaser/framework/starter/tkmybatis/service/MallInfoTkService.class
+top/chaser/framework/starter/tkmybatis/model/MallInfo.class

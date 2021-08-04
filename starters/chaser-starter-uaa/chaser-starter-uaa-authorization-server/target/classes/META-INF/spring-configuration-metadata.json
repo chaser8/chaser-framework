@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "chaser.security.jwt",
+      "type": "top.chaser.framework.starter.uaa.authorization.AuthorizationServerJwtProperties",
+      "sourceType": "top.chaser.framework.starter.uaa.authorization.AuthorizationServerJwtProperties"
+    },
+    {
+      "name": "chaser.security.server",
+      "type": "top.chaser.framework.starter.uaa.authorization.AuthorizationServerProperties",
+      "sourceType": "top.chaser.framework.starter.uaa.authorization.AuthorizationServerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "chaser.security.jwt.expire-seconds",
+      "type": "java.lang.Long",
+      "sourceType": "top.chaser.framework.starter.uaa.authorization.AuthorizationServerJwtProperties"
+    },
+    {
+      "name": "chaser.security.jwt.private-key",
+      "type": "java.lang.String",
+      "description": "RSA私钥，client情况下只需要配公钥",
+      "sourceType": "top.chaser.framework.starter.uaa.authorization.AuthorizationServerJwtProperties"
+    },
+    {
+      "name": "chaser.security.server.max-password-error-times",
+      "type": "java.lang.Integer",
+      "description": "密码连续错误最大次数，超过次数锁定帐号",
+      "sourceType": "top.chaser.framework.starter.uaa.authorization.AuthorizationServerProperties",
+      "defaultValue": 3
+    },
+    {
+      "name": "chaser.security.server.sms-login-enable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用短信登录",
+      "sourceType": "top.chaser.framework.starter.uaa.authorization.AuthorizationServerProperties",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}

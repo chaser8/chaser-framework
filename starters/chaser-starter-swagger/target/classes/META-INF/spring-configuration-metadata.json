@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "chaser.swagger",
+      "type": "top.chaser.framework.starter.swagger.autoconfigure.SwaggerProperties",
+      "sourceType": "top.chaser.framework.starter.swagger.autoconfigure.SwaggerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "chaser.swagger.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "top.chaser.framework.starter.swagger.autoconfigure.SwaggerProperties",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}

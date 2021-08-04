@@ -1,0 +1,6 @@
+top/chaser/framework/starter/tkmybatis/model/TkBaseEntity.class
+top/chaser/framework/starter/tkmybatis/autoconfigure/TkMybatisAutoConfiguration$1.class
+top/chaser/framework/starter/tkmybatis/mapper/TkBaseMapper.class
+top/chaser/framework/starter/tkmybatis/autoconfigure/TkMybatisAutoConfiguration.class
+top/chaser/framework/starter/tkmybatis/service/IService.class
+top/chaser/framework/starter/tkmybatis/service/TkServiceImpl.class

@@ -1,0 +1,13 @@
+META-INF/spring-configuration-metadata.json
+top/chaser/framework/uaa/base/JwtProperties.class
+top/chaser/framework/uaa/base/store/TokenStore.class
+top/chaser/framework/uaa/base/store/CacheStore.class
+top/chaser/framework/uaa/base/code/SmsCodeSender.class
+top/chaser/framework/uaa/base/code/SmsAuthCode.class
+top/chaser/framework/uaa/base/handler/DefaultAuthenticationEntryPoint.class
+top/chaser/framework/uaa/base/util/JwtUtil.class
+top/chaser/framework/uaa/base/handler/DefaultAuthenticationFailureHandler.class
+top/chaser/framework/uaa/base/code/AuthCodeType.class
+top/chaser/framework/uaa/base/code/AuthCode.class
+top/chaser/framework/uaa/base/handler/DefaultAccessDeniedHandler.class
+top/chaser/framework/uaa/base/code/DefaultSmsCodeSender.class

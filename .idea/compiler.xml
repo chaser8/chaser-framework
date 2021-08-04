@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chaser-starter-uaa-authorization-server" />
+        <module name="chaser-uaa-base" />
+        <module name="chaser-starter-webflux" />
+        <module name="chaser-starter-uaa-resource-server" />
+        <module name="chaser-starter-tkmybatis" />
+        <module name="common-base" />
+        <module name="chaser-starter-swagger" />
+        <module name="chaser-boot-starter" />
+        <module name="chaser-starter-upload" />
+        <module name="common-excel" />
+        <module name="chaser-starter-logging" />
+        <module name="common-web" />
+        <module name="chaser-starter-web" />
+        <module name="common-webflux" />
+        <module name="chaser-starter-gray" />
+        <module name="chaser-starter-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="chaser-boot-starter" target="1.8" />
+      <module name="chaser-framework" target="1.8" />
+      <module name="chaser-starter-gateway" target="1.8" />
+      <module name="chaser-starter-gray" target="1.8" />
+      <module name="chaser-starter-logging" target="1.8" />
+      <module name="chaser-starter-swagger" target="1.8" />
+      <module name="chaser-starter-tkmybatis" target="1.8" />
+      <module name="chaser-starter-uaa" target="1.8" />
+      <module name="chaser-starter-uaa-authorization-server" target="1.8" />
+      <module name="chaser-starter-uaa-resource-server" target="1.8" />
+      <module name="chaser-starter-upload" target="1.8" />
+      <module name="chaser-starter-web" target="1.8" />
+      <module name="chaser-starter-webflux" target="1.8" />
+      <module name="chaser-uaa-base" target="1.8" />
+      <module name="common-base" target="1.8" />
+      <module name="common-excel" target="1.8" />
+      <module name="common-web" target="1.8" />
+      <module name="common-webflux" target="1.8" />
+      <module name="commons" target="1.8" />
+      <module name="deploy" target="1.8" />
+      <module name="starters" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "gray",
+      "type": "top.chaser.framework.starter.gray.autoconfigure.GrayProperties",
+      "sourceType": "top.chaser.framework.starter.gray.autoconfigure.GrayProperties"
+    },
+    {
+      "name": "gray.strategys",
+      "type": "top.chaser.framework.starter.gray.autoconfigure.GrayProperties$Strategys",
+      "sourceType": "top.chaser.framework.starter.gray.autoconfigure.GrayProperties",
+      "sourceMethod": "getStrategys()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "gray.default-rule-class",
+      "type": "java.lang.String",
+      "sourceType": "top.chaser.framework.starter.gray.autoconfigure.GrayProperties",
+      "defaultValue": "top.chaser.framework.cloud.starter.gray.ribbon.GrayRule"
+    },
+    {
+      "name": "gray.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "top.chaser.framework.starter.gray.autoconfigure.GrayProperties",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

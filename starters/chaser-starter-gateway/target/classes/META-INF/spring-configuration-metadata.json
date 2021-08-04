@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "chaser.gateway",
+      "type": "top.chaser.framework.starter.gateway.autoconfigure.GatewayProperties",
+      "sourceType": "top.chaser.framework.starter.gateway.autoconfigure.GatewayProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

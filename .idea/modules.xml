@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/starters/chaser-boot-starter/chaser-boot-starter.iml" filepath="$PROJECT_DIR$/starters/chaser-boot-starter/chaser-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chaser-framework.iml" filepath="$PROJECT_DIR$/chaser-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/chaser-starter-gateway/chaser-starter-gateway.iml" filepath="$PROJECT_DIR$/starters/chaser-starter-gateway/chaser-starter-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/chaser-starter-gray/chaser-starter-gray.iml" filepath="$PROJECT_DIR$/starters/chaser-starter-gray/chaser-starter-gray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/chaser-starter-logging/chaser-starter-logging.iml" filepath="$PROJECT_DIR$/starters/chaser-starter-logging/chaser-starter-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/chaser-starter-swagger/chaser-starter-swagger.iml" filepath="$PROJECT_DIR$/starters/chaser-starter-swagger/chaser-starter-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/chaser-starter-tkmybatis/chaser-starter-tkmybatis.iml" filepath="$PROJECT_DIR$/starters/chaser-starter-tkmybatis/chaser-starter-tkmybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa.iml" filepath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/chaser-starter-uaa-authorization-server.iml" filepath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-authorization-server/chaser-starter-uaa-authorization-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/chaser-starter-uaa-resource-server.iml" filepath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-starter-uaa-resource-server/chaser-starter-uaa-resource-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/chaser-starter-upload/chaser-starter-upload.iml" filepath="$PROJECT_DIR$/starters/chaser-starter-upload/chaser-starter-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/chaser-starter-web/chaser-starter-web.iml" filepath="$PROJECT_DIR$/starters/chaser-starter-web/chaser-starter-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/chaser-starter-webflux/chaser-starter-webflux.iml" filepath="$PROJECT_DIR$/starters/chaser-starter-webflux/chaser-starter-webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/chaser-uaa-base.iml" filepath="$PROJECT_DIR$/starters/chaser-starter-uaa/chaser-uaa-base/chaser-uaa-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/common-base/common-base.iml" filepath="$PROJECT_DIR$/commons/common-base/common-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/common-excel/common-excel.iml" filepath="$PROJECT_DIR$/commons/common-excel/common-excel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/common-web/common-web.iml" filepath="$PROJECT_DIR$/commons/common-web/common-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/common-webflux/common-webflux.iml" filepath="$PROJECT_DIR$/commons/common-webflux/common-webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deploy/deploy.iml" filepath="$PROJECT_DIR$/deploy/deploy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/starters.iml" filepath="$PROJECT_DIR$/starters/starters.iml" />
+    </modules>
+  </component>
+</project>

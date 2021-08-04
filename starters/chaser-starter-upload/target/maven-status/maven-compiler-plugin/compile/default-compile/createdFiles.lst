@@ -1,0 +1,12 @@
+top/chaser/framework/starter/upload/autoconfigure/LocalStorage.class
+META-INF/spring-configuration-metadata.json
+top/chaser/framework/starter/upload/controller/UploadController$1.class
+top/chaser/framework/starter/upload/autoconfigure/Storage.class
+top/chaser/framework/starter/upload/utils/FileStorageUtil.class
+top/chaser/framework/starter/upload/service/FileInfoService.class
+top/chaser/framework/starter/upload/vo/FileInfoRes.class
+top/chaser/framework/starter/upload/autoconfigure/UploadAutoConfiguration.class
+top/chaser/framework/starter/upload/entity/FileInfo.class
+top/chaser/framework/starter/upload/mapper/FileInfoMapper.class
+top/chaser/framework/starter/upload/autoconfigure/UploadProperties.class
+top/chaser/framework/starter/upload/controller/UploadController.class
