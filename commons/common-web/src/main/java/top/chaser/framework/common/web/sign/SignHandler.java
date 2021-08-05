@@ -1,8 +1,11 @@
 package top.chaser.framework.common.web.sign;
 
+import cn.hutool.core.convert.Convert;
+import cn.hutool.core.util.StrUtil;
 import cn.hutool.extra.servlet.ServletUtil;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
+import top.chaser.framework.common.base.exception.SystemException;
 import top.chaser.framework.common.base.util.JSONUtil;
 import top.chaser.framework.common.web.SpringBootWebProperties;
 import top.chaser.framework.common.web.exception.WebErrorType;
@@ -15,13 +18,28 @@ import java.util.TreeMap;
 
 @Slf4j
 public abstract class SignHandler {
-    public abstract boolean handle(TreeMap<String,Object> body, HttpServletRequest request, SpringBootWebProperties.Sign signProperties);
+    public abstract boolean handle(TreeMap<String, Object> body, HttpServletRequest request,SpringBootWebProperties.Sign signProperties);
+
     @SneakyThrows
-    public void onValidateFailure(TreeMap<String,Object> body, HttpServletRequest request, HttpServletResponse response){
+    public void onValidateFailure(TreeMap<String, Object> body, HttpServletRequest request, HttpServletResponse response) {
         response.setContentType(MediaType.APPLICATION_JSON_UTF8_VALUE);
         R<Void> fail = R.fail(WebErrorType.SIGN_ERROR, "签名验证失败");
         String responseBody = JSONUtil.toJSONString(fail);
-        log.error(request.getServletPath()+" -> request body:{},response body:{}",JSONUtil.toJSONString(body),responseBody);
-        ServletUtil.write(response,responseBody,MediaType.APPLICATION_JSON_UTF8_VALUE);
+        log.error(request.getServletPath() + " -> request body:{},response body:{}", JSONUtil.toJSONString(body), responseBody);
+        ServletUtil.write(response, responseBody, MediaType.APPLICATION_JSON_UTF8_VALUE);
     }
+
+    @SneakyThrows
+    public boolean verifyParams(TreeMap<String, Object> body, HttpServletRequest request, HttpServletResponse response, SpringBootWebProperties.Sign signProperties) throws SystemException {
+        if (StrUtil.isBlank(Convert.toStr(body.get(signProperties.getSignKey())))) {
+            response.setContentType(MediaType.APPLICATION_JSON_UTF8_VALUE);
+            R<Void> fail = R.fail(WebErrorType.PARAM_ERROR, StrUtil.format("签名参数:{} 不能为空", signProperties.getSignKey()));
+            String responseBody = JSONUtil.toJSONString(fail);
+            log.error(request.getServletPath() + " -> request body:{}", JSONUtil.toJSONString(body));
+            ServletUtil.write(response, responseBody, MediaType.APPLICATION_JSON_UTF8_VALUE);
+            return false;
+        }
+        return true;
+    }
+
 }

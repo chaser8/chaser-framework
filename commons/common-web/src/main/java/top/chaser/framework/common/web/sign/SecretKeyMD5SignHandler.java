@@ -11,7 +11,7 @@ import java.util.TreeMap;
 public class SecretKeyMD5SignHandler extends SignHandler{
     @Override
     public boolean handle(TreeMap<String, Object> body, HttpServletRequest request, SpringBootWebProperties.Sign signProperties) {
-        String requestSign = request.getHeader(signProperties.KEY);
+        String requestSign = request.getHeader(signProperties.getSecretKey());
         requestSign = Optional.ofNullable(requestSign).orElse("");
         String sign = SecureUtil.md5(JSONUtil.toJSONString(body) + signProperties.getSecretKey());
         if (requestSign.equals(sign)) {

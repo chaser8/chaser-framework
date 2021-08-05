@@ -32,11 +32,15 @@ public class SignInterceptor implements HandlerInterceptor {
             log.info("request not instanceof RequestWrapper >> "+handler);
             return true;
         }
+
         MultiReadHttpServletRequest multiReadHttpServletRequest = (MultiReadHttpServletRequest) request;
         TreeMap<String,Object> body = multiReadHttpServletRequest.getBody(TreeMap.class);
-        boolean flag = this.signHandler.handle(body, request, signProperties);
-        if(!flag){
-            this.signHandler.onValidateFailure(body,request,response);
+        boolean flag = this.signHandler.verifyParams(body,request,response,signProperties);
+        if(flag){
+            flag = this.signHandler.handle(body, request, signProperties);
+            if(!flag){
+                this.signHandler.onValidateFailure(body,request,response);
+            }
         }
         return flag;
     }

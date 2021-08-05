@@ -14,7 +14,7 @@ public class SpringBootWebProperties {
     @Getter
     @Setter
     public class Sign {
-        public static final String KEY = "sign";
+        private String signKey = "sign";
         private boolean enable = false;
         private String secretKey;
         /**
